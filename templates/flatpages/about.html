@@ -1,0 +1,14 @@
+{% extends 'flatpages/default.html' %}
+
+{% block content %}
+<h1> Эта страничка -
+    {% block title %}
+    {{ flatpage.title }}{% endblock title %}!
+</h1>
+<h2> Здесь выполняются сразу все задания: </h2>
+<hr>
+{{ flatpage.content }}
+<hr>
+{{ flatpage.content }}
+<hr>
+{% endblock content %}
