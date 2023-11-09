@@ -1,5 +1,5 @@
 # Django_test_project
-D1.6. - project fot SF (итоговое задание для SF)
+D1.6. - project for SF (итоговое задание для SF)
 
 The first Django project containing 
 pages with various test content.
